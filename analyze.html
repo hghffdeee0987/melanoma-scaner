@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Аналіз фото — SkinScan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #007B8A;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: #005F6B;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        input[type="file"] {
+            margin: 20px 0;
+        }
+
+        button {
+            background-color: #007B8A;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #005F6B;
+        }
+
+        footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Аналіз фото</h1>
+    <p>Завантажте зображення родимки для аналізу</p>
+</header>
+
+<nav>
+    <a href="index.html">Головна</a>
+    <a href="analyze.html">Аналіз фото</a>
+</nav>
+
+<main>
+    <form>
+        <input type="file" accept="image/*">
+        <br>
+        <button type="button" onclick="alert('Аналіз ще в розробці')">Почати аналіз</button>
+    </form>
+    <p><em>*Функція аналізу буде доступна після інтеграції з ШІ.</em></p>
+</main>
+
+<footer>
+    <p>&copy; 2025 SkinScan. Усі права захищені.</p>
+</footer>
+
+</body>
+</html>
